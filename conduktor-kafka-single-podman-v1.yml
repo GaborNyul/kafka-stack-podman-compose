@@ -17,7 +17,7 @@ services:
         external: true
 
   conduktor-console:
-    image: docker.io/conduktor/conduktor-console:1.40.0
+    image: docker.io/conduktor/conduktor-console:1.41.0
     ports:
       - "8080:8080"
     volumes:
